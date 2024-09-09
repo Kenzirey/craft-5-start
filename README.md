@@ -2,7 +2,7 @@
 
 A starter project for Craft CMS + DDEV + Vite. Created for students of [CraftQuest.io](https://craftquest.io) video courses on Craft CMS and modern web development.
 
-## Vite 5
+## Vite
 
 This project is set up to use Vite for front-end tooling. Vite + Craft CMS 5 work together because of Andrew Welch's [Vite plugin for Craft CMS](https://nystudio107.com/plugins/vite). This project comes with the Vite plugin installed and configured.
 
