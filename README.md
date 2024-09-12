@@ -50,3 +50,11 @@ Access the project in your web browser:
 This project was built to be used with CraftQuest's courses. Ready to learn with us?! 
 
 https://craftquest.io
+
+## Resources Used to Create This Repository
+
+* [Vite.js](https://vitejs.dev/)
+* [nystudio107/craft-vite: Allows the use of the Vite.js next generation frontend tooling with Craft CMS](https://github.com/nystudio107/craft-vite/)
+* [craft-vite documentation](https://nystudio107.com/plugins/vite/documentation)
+* [Defining Custom Services - DDEV-Local Documentation](https://ddev.readthedocs.io/en/latest/users/extend/custom-compose-files/)
+* [onedarnleyroad/craftcms: A Craft CMS starter project using DDEV for local hosting and Vite for front-end bundling and HMR.](https://github.com/onedarnleyroad/craftcms)
