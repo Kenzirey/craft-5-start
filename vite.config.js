@@ -1,4 +1,5 @@
 import ViteRestart from 'vite-plugin-restart';
+import path from 'path';
 export default ({command}) => ({
     base: command === 'serve' ? '' : '/dist/',
     build: {
@@ -17,6 +18,13 @@ export default ({command}) => ({
             ],
         }),
     ],
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, 'src'),
+            '@css': path.resolve(__dirname, 'src/css'),
+            '@js': path.resolve(__dirname, 'src/js'),
+        },
+    },
     server: {
         host: '0.0.0.0',
         port: 3000
