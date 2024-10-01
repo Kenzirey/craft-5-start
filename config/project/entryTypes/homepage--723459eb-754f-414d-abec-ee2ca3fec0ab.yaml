@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  0d5ecd8a-7fde-4dc8-968c-e8df374bf8ef:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-10-01T11:01:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fa74d8f5-8ebc-4003-bf7c-3ef12917e7c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-01T11:06:12+00:00'
+            elementCondition: null
+            fieldUid: 6b9a80e5-d70c-4de5-8bdc-f84b19915354 # Rich Text
+            handle: homepageContent
+            includeInCards: false
+            instructions: 'Rich text content that will appear on the homepage.'
+            label: Content
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9ed12f1-118a-4b4b-956c-8632fb391a22
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0a30b5ff-7e0c-4be3-ada7-791cc7221627
+        userCondition: null
+handle: homepage
+hasTitleField: true
+icon: house
+name: 'Homepage '
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
